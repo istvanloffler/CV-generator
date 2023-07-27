@@ -2,7 +2,7 @@ from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 import cv2
 
-#From here it is easy to covert the code to get the data from a CSV file.
+#From here it is easy to covert the code to get the data from a CSV file
 def create_cv():
     # Create a new Word document
     doc = Document()
